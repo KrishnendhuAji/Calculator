@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="main-body">
+        <div class="calculator">
+            <div class="screenandbuttons">
+                <input type="text" id="screen">
+            
+                <div class="buttons">
+                        <div class="row">
+                             <button onclick="clearDisplay()" class="button" style="background:lightsalmon;">C</button>
+                             <button onclick="buttonclick('-')"  class="button" style="background:lightpink;">-</button>
+                             <button onclick="buttonclick('*')"  class="button" style="background:lightpink;">X</button>
+                             <button onclick="buttonclick('/')"  class="button" style="background:lightpink;">/</button>
+                        </div>
+
+                        <div class="row">
+                            <button onclick="buttonclick(7)" class="button" style="background:lightskyblue;">7</button>
+                            <button onclick="buttonclick(8)" class="button" style="background:lightskyblue;" >8</button>
+                            <button onclick="buttonclick(9)" class="button" style="background:lightskyblue;" >9</button>
+                            <button onclick="buttonclick('.')" class="button" style="background:lightpink;">.</button>  
+                        </div>
+
+                        <div class="row">
+                            <button onclick="buttonclick(4)" class="button" style="background:lightskyblue;">4</button>
+                            <button onclick="buttonclick(5)" class="button" style="background:lightskyblue;">5</button>
+                            <button onclick="buttonclick(6)" class="button" style="background:lightskyblue;">6</button>
+                            <button onclick="buttonclick('+')" class="button" style="background:lightpink;">+</button>
+                        </div>
+
+                        <div class="row">
+                            <button onclick="buttonclick(1)" class="button" style="background:lightskyblue;">1</button>
+                            <button onclick="buttonclick(2)" class="button" style="background:lightskyblue;">2</button>
+                            <button onclick="buttonclick(3)" class="button" style="background:lightskyblue;">3</button>
+                            <button onclick="equalClick()" class="button" style="background:  	#ffccff;">=</button>
+                        </div>
+
+                        <div class="row">
+                            <button onclick="buttonclick(0)" class="button" style="background:lightskyblue;">0</button>
+                            
+                             </div>
+                        
+                </div>
+             
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
